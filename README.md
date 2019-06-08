@@ -14,6 +14,7 @@ This branch was altered the following way:
 - Stop blocking non-tunnel DNS servers. This introduces leakage but allows you to simultaneously access resources on a local network with a full-fledged DNS service.
 - Add DNSSuffix support to configure connection-specific DNS Suffix.
 - Allow multiple concurrent WireGuard active tunnels. Mind the code does not check the tunnel configuration for sanity.
+- Adds WireGuard for Windows version number and platform name to the MSI product name. This makes the Group Policy Editor provide sysadmins a better package name suggestion than "WireGuard (2)" when publishing.
 
 ### Building
 

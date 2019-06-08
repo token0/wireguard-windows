@@ -21,7 +21,7 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
 	<Product
 		Id="*"
-		Name="WireGuard"
+		Name="WireGuard $(var.WIREGUARD_PLATFORM) $(var.WIREGUARD_VERSION)"
 		Language="1033"
 		Version="$(var.WIREGUARD_VERSION)"
 		Manufacturer="WireGuard LLC"
