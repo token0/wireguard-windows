@@ -171,11 +171,13 @@ func (service *tunnelService) Execute(args []string, r <-chan svc.ChangeRequest,
 		log.Printf("Using Wintun/%s (NDIS %s)", wintunVersion, ndisVersion)
 	}
 
-	log.Println("Enabling firewall rules")
-	err = enableFirewall(conf, nativeTun)
-	if err != nil {
-		serviceError = services.ErrorFirewall
-		return
+	if shouldEnableFirewall(conf) {
+		log.Println("Enabling firewall rules (\"kill-switch\")")
+		err = enableFirewall(conf, nativeTun)
+		if err != nil {
+			serviceError = services.ErrorFirewall
+			return
+		}
 	}
 
 	log.Println("Dropping privileges")
