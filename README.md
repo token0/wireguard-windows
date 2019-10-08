@@ -4,6 +4,14 @@
 
 This is a fully-featured WireGuard client for Windows that uses [Wintun](https://www.wintun.net/).
 
+### Branch modifications
+
+**This is rozmansi's experimental branch. Use at your own risk.**
+
+This branch was altered the following way:
+
+- TUN adapters are not deleted and recreated but disabled and enabled across tunnel recycling. This prevents accumulating NLA profiles on pre-Windows 10 cores and allows manual adapter configuration to persist. Orphaned adapters (ones without configuration) are nevertheless deleted.
+
 ### Building
 
 Windows 10 64-bit or Windows Server 2019, and Git for Windows is required. The build script will take care of downloading, verifying, and extracting the right versions of the various dependencies:
