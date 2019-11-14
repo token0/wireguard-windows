@@ -13,6 +13,7 @@ This branch was altered the following way:
 - TUN adapters are not deleted and recreated but disabled and enabled across tunnel recycling. This prevents accumulating NLA profiles on pre-Windows 10 cores and allows manual adapter configuration to persist. Orphaned adapters (ones without configuration) are nevertheless deleted.
 - Stop blocking non-tunnel DNS servers. This introduces leakage but allows you to simultaneously access resources on a local network with a full-fledged DNS service.
 - Add DNSSuffix support to configure connection-specific DNS Suffix.
+- Allow multiple concurrent WireGuard active tunnels. Mind the code does not check the tunnel configuration for sanity.
 
 ### Building
 
