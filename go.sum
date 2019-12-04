@@ -20,6 +20,8 @@ golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e h1:FDhOuMEY4JVRztM/gsbk+IK
 golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
 golang.zx2c4.com/wireguard v0.0.20200122-0.20200214175355-9cbcff10dd3e h1:cEeaW64u6+FcYcO4/M+rpqJhb9pFl/9CGs5oqlN6ps8=
 golang.zx2c4.com/wireguard v0.0.20200122-0.20200214175355-9cbcff10dd3e/go.mod h1:P2HsVp8SKwZEufsnezXZA4GRX/T49/HlU7DGuelXsU4=
+golang.zx2c4.com/wireguard v0.0.20200122-0.20200319063315-f6f9c99d9f67 h1:bf5I8cAu4cCzoSD5ellQ1W0gA5D2DZ22MzsTngeb6Qk=
+golang.zx2c4.com/wireguard v0.0.20200122-0.20200319063315-f6f9c99d9f67/go.mod h1:lDian4Sw4poJ04SgHh35nzMVwGSYlPumkdnHcucAQoY=
 golang.zx2c4.com/wireguard/windows v0.0.0-20191128151049-87f28cc339ec h1:pBaaA+qpAHWEAT6QOfR/FIhQADFBtRgQVhj7wQicA0g=
 golang.zx2c4.com/wireguard/windows v0.0.0-20191128151049-87f28cc339ec/go.mod h1:Y+FYqVFaQO6a+1uigm0N0GiuaZrLEaBxEiJ8tfH9sMQ=
 golang.zx2c4.com/wireguard/windows v0.0.0-20191128151145-b4e4933852d5 h1:tkrF3cHqbnFQ068q0cUbu9nJMXKChFT2rGL9sSAMlrI=
