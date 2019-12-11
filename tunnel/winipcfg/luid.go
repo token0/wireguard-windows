@@ -10,6 +10,7 @@ import (
 	"net"
 
 	"golang.org/x/sys/windows"
+	"golang.org/x/sys/windows/registry"
 )
 
 // LUID represents a network interface.
@@ -425,4 +426,48 @@ func (luid LUID) SetDNSForFamily(family AddressFamily, dnses []net.IP) error {
 		}
 	}
 	return runNetsh(cmds)
+}
+
+// DNSSuffix method returns interface-specific DNS suffix.
+func (luid LUID) DNSSuffix() (string, error) {
+	guid, err := luid.GUID()
+	if err != nil {
+		return "", err
+	}
+	key, err := registry.OpenKey(
+		registry.LOCAL_MACHINE,
+		fmt.Sprintf("SYSTEM\\CurrentControlSet\\services\\Tcpip\\Parameters\\Interfaces\\%s", guid.String()),
+		registry.QUERY_VALUE)
+	if err != nil {
+		return "", err
+	}
+	defer key.Close()
+	suffix, valType, err := key.GetStringValue("Domain")
+	if err != nil {
+		return "", err
+	}
+	if valType == registry.EXPAND_SZ {
+		suffixExp, err := registry.ExpandString(suffix)
+		if err == nil {
+			return suffixExp, nil
+		}
+	}
+	return suffix, nil
+}
+
+// SetDNSSuffix method sets interface-specific DNS suffix.
+func (luid LUID) SetDNSSuffix(suffix string) error {
+	guid, err := luid.GUID()
+	if err != nil {
+		return err
+	}
+	key, err := registry.OpenKey(
+		registry.LOCAL_MACHINE,
+		fmt.Sprintf("SYSTEM\\CurrentControlSet\\services\\Tcpip\\Parameters\\Interfaces\\%s", guid.String()),
+		registry.SET_VALUE)
+	if err != nil {
+		return err
+	}
+	defer key.Close()
+	return key.SetStringValue("Domain", suffix)
 }

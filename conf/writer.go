@@ -36,6 +36,10 @@ func (conf *Config) ToWgQuick() string {
 		output.WriteString(fmt.Sprintf("DNS = %s\n", strings.Join(addrStrings[:], ", ")))
 	}
 
+	if conf.Interface.DNSSuffix != "" {
+		output.WriteString(fmt.Sprintf("DNSSuffix = %s\n", conf.Interface.DNSSuffix))
+	}
+
 	if conf.Interface.MTU > 0 {
 		output.WriteString(fmt.Sprintf("MTU = %d\n", conf.Interface.MTU))
 	}

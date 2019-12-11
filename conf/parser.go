@@ -9,6 +9,7 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 	"net"
+	"regexp"
 	"strconv"
 	"strings"
 	"time"
@@ -17,6 +18,12 @@ import (
 
 	"golang.zx2c4.com/wireguard/windows/l18n"
 )
+
+var allowedDomainNameFormat *regexp.Regexp
+
+func init() {
+	allowedDomainNameFormat = regexp.MustCompile("^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$")
+}
 
 type ParseError struct {
 	why      string
@@ -169,6 +176,22 @@ func parseBytesOrStamp(s string) (uint64, error) {
 	return b, nil
 }
 
+func parseHostname(s string) (string, error) {
+	// TODO: IDN support?
+	switch {
+	case len(s) == 0:
+		return "", &ParseError{l18n.Sprintf("Hostname must not be empty"), s}
+	case len(s) > 255:
+		return "", &ParseError{l18n.Sprintf("Hostname must not exceed 255 characters"), s}
+	}
+	for _, domain := range strings.Split(s, ".") {
+		if !allowedDomainNameFormat.MatchString(domain) {
+			return "", &ParseError{l18n.Sprintf("Invalid domain name"), s}
+		}
+	}
+	return s, nil
+}
+
 func splitList(s string) ([]string, error) {
 	var out []string
 	for _, split := range strings.Split(s, ",") {
@@ -281,6 +304,12 @@ func FromWgQuick(s string, name string) (*Config, error) {
 					}
 					conf.Interface.DNS = append(conf.Interface.DNS, a)
 				}
+			case "dnssuffix":
+				dnsSuffix, err := parseHostname(val)
+				if err != nil {
+					return nil, err
+				}
+				conf.Interface.DNSSuffix = dnsSuffix
 			default:
 				return nil, &ParseError{l18n.Sprintf("Invalid key for [Interface] section"), key}
 			}
@@ -366,6 +395,7 @@ func FromUAPI(s string, existingConfig *Config) (*Config, error) {
 		Interface: Interface{
 			Addresses: existingConfig.Interface.Addresses,
 			DNS:       existingConfig.Interface.DNS,
+			DNSSuffix: existingConfig.Interface.DNSSuffix,
 			MTU:       existingConfig.Interface.MTU,
 		},
 	}

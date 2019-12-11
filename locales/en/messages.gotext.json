@@ -508,6 +508,27 @@
             "fuzzy": true
         },
         {
+            "id": "Hostname must not be empty",
+            "message": "Hostname must not be empty",
+            "translation": "Hostname must not be empty",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Hostname must not exceed 255 characters",
+            "message": "Hostname must not exceed 255 characters",
+            "translation": "Hostname must not exceed 255 characters",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Invalid domain name",
+            "message": "Invalid domain name",
+            "translation": "Invalid domain name",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
             "id": "Two commas in a row",
             "message": "Two commas in a row",
             "translation": "Two commas in a row",
@@ -747,6 +768,13 @@
             "id": "DNS servers:",
             "message": "DNS servers:",
             "translation": "DNS servers:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "DNS suffix:",
+            "message": "DNS suffix:",
+            "translation": "DNS suffix:",
             "translatorComment": "Copied from source.",
             "fuzzy": true
         },

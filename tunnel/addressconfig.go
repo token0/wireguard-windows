@@ -159,6 +159,11 @@ func configureInterface(family winipcfg.AddressFamily, conf *conf.Config, tun *t
 		return err
 	}
 
+	err = luid.SetDNSSuffix(conf.Interface.DNSSuffix)
+	if err != nil {
+		return err
+	}
+
 	err = luid.SetDNSForFamily(family, conf.Interface.DNS)
 	if err != nil {
 		return err

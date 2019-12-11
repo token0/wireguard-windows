@@ -50,6 +50,7 @@ type interfaceView struct {
 	mtu          *labelTextLine
 	addresses    *labelTextLine
 	dns          *labelTextLine
+	dnsSuffix    *labelTextLine
 	toggleActive *toggleActiveLine
 	lines        []widgetsLine
 }
@@ -305,6 +306,7 @@ func newInterfaceView(parent walk.Container) (*interfaceView, error) {
 		{l18n.Sprintf("MTU:"), &iv.mtu},
 		{l18n.Sprintf("Addresses:"), &iv.addresses},
 		{l18n.Sprintf("DNS servers:"), &iv.dns},
+		{l18n.Sprintf("DNS suffix:"), &iv.dnsSuffix},
 	}
 	if iv.lines, err = createLabelTextLines(items, parent, &disposables); err != nil {
 		return nil, err
@@ -396,6 +398,12 @@ func (iv *interfaceView) apply(c *conf.Interface) {
 		iv.dns.show(strings.Join(addrStrings[:], l18n.EnumerationSeparator()))
 	} else {
 		iv.dns.hide()
+	}
+
+	if c.DNSSuffix != "" {
+		iv.dnsSuffix.show(c.DNSSuffix)
+	} else {
+		iv.dnsSuffix.hide()
 	}
 }
 

@@ -49,177 +49,181 @@ var messageKeyToIndex = map[string]int{
 	"%d hour(s)":                            14,
 	"%d minute(s)":                          15,
 	"%d second(s)":                          16,
-	"%d tunnels were unable to be removed.": 158,
+	"%d tunnels were unable to be removed.": 162,
 	"%d year(s)":                            12,
 	"%d\u00a0B":                             18,
-	"%s\n\nPlease consult the log for more information.": 111,
-	"%s (out of date)":                        112,
-	"%s (unsigned build, no updates)":         163,
-	"%s You cannot undo this action.":         154,
+	"%s\n\nPlease consult the log for more information.": 115,
+	"%s (out of date)":                        116,
+	"%s (unsigned build, no updates)":         167,
+	"%s You cannot undo this action.":         158,
 	"%s ago":                                  17,
-	"%s received, %s sent":                    71,
+	"%s received, %s sent":                    75,
 	"%s: %q":                                  23,
-	"&About WireGuard…":                       109,
-	"&Activate":                               58,
-	"&Block untunneled traffic (kill-switch)": 82,
-	"&Configuration:":                         86,
-	"&Copy":                                   102,
-	"&Deactivate":                             57,
-	"&Edit":                                   133,
-	"&Import tunnel(s) from file…":            119,
-	"&Manage tunnels…":                        118,
-	"&Name:":                                  79,
-	"&Public key:":                            80,
-	"&Remove selected tunnel(s)":              141,
-	"&Save":                                   84,
-	"&Save to file…":                          104,
-	"&Toggle":                                 138,
+	"&About WireGuard…":                       113,
+	"&Activate":                               61,
+	"&Block untunneled traffic (kill-switch)": 86,
+	"&Configuration:":                         90,
+	"&Copy":                                   106,
+	"&Deactivate":                             60,
+	"&Edit":                                   137,
+	"&Import tunnel(s) from file…":            123,
+	"&Manage tunnels…":                        122,
+	"&Name:":                                  83,
+	"&Public key:":                            84,
+	"&Remove selected tunnel(s)":              145,
+	"&Save":                                   88,
+	"&Save to file…":                          108,
+	"&Toggle":                                 142,
 	"(no argument): elevate and install manager service": 1,
-	"(unknown)":                             81,
-	"A name is required.":                   88,
-	"A tunnel was unable to be removed: %s": 156,
-	"About WireGuard":                       51,
-	"Activating":                            97,
-	"Active":                                96,
-	"Add &empty tunnel…":                    134,
-	"Add Tunnel":                            135,
-	"Addresses:":                            62,
-	"Addresses: %s":                         124,
-	"Addresses: None":                       117,
-	"All peers must have public keys":       44,
-	"Allowed IPs:":                          65,
-	"An Update is Available!":               129,
-	"An interface must have a private key":  42,
-	"An update to WireGuard is available. It is highly advisable to update without delay.":            166,
-	"An update to WireGuard is now available. You are advised to update as soon as possible.":         131,
-	"Another tunnel already exists with the name ‘%s’":                                                144,
-	"Another tunnel already exists with the name ‘%s’.":                                               92,
-	"App version: %s\nGo backend version: %s\nGo version: %s\nOperating system: %s\nArchitecture: %s": 53,
-	"Are you sure you would like to delete %d tunnels?":                                               151,
-	"Are you sure you would like to delete tunnel ‘%s’?":                                              153,
+	"(unknown)":                             85,
+	"A name is required.":                   92,
+	"A tunnel was unable to be removed: %s": 160,
+	"About WireGuard":                       54,
+	"Activating":                            101,
+	"Active":                                100,
+	"Add &empty tunnel…":                    138,
+	"Add Tunnel":                            139,
+	"Addresses:":                            65,
+	"Addresses: %s":                         128,
+	"Addresses: None":                       121,
+	"All peers must have public keys":       47,
+	"Allowed IPs:":                          69,
+	"An Update is Available!":               133,
+	"An interface must have a private key":  45,
+	"An update to WireGuard is available. It is highly advisable to update without delay.":            170,
+	"An update to WireGuard is now available. You are advised to update as soon as possible.":         135,
+	"Another tunnel already exists with the name ‘%s’":                                                148,
+	"Another tunnel already exists with the name ‘%s’.":                                               96,
+	"App version: %s\nGo backend version: %s\nGo version: %s\nOperating system: %s\nArchitecture: %s": 56,
+	"Are you sure you would like to delete %d tunnels?":                                               155,
+	"Are you sure you would like to delete tunnel ‘%s’?":                                              157,
 	"Brackets must contain an IPv6 address":                                                           28,
-	"Cancel":                                                                                          85,
-	"Close":                                                                                           54,
+	"Cancel":                                                                                          89,
+	"Close":                                                                                           57,
 	"Command Line Options":                                                                            3,
-	"Configuration Files (*.zip, *.conf)|*.zip;*.conf|All Files (*.*)|*.*":                            159,
-	"Configuration ZIP Files (*.zip)|*.zip":                                                           161,
-	"Could not enumerate existing tunnels: %v":                                                        143,
-	"Could not import selected configuration: %v":                                                     142,
-	"Create new tunnel":                                                                               77,
-	"DNS servers:":                                                                                    63,
-	"Deactivating":                                                                                    99,
-	"Delete %d tunnels":                                                                               150,
-	"Delete tunnel ‘%s’":                                                                              152,
-	"E&xit":                                                                                           120,
-	"Edit &selected tunnel…":                                                                          140,
-	"Edit tunnel":                                                                                     78,
-	"Endpoint:":                                                                                       66,
+	"Configuration Files (*.zip, *.conf)|*.zip;*.conf|All Files (*.*)|*.*":                            163,
+	"Configuration ZIP Files (*.zip)|*.zip":                                                           165,
+	"Could not enumerate existing tunnels: %v":                                                        147,
+	"Could not import selected configuration: %v":                                                     146,
+	"Create new tunnel":                                                                               81,
+	"DNS servers:":                                                                                    66,
+	"DNS suffix:":                                                                                     67,
+	"Deactivating":                                                                                    103,
+	"Delete %d tunnels":                                                                               154,
+	"Delete tunnel ‘%s’":                                                                              156,
+	"E&xit":                                                                                           124,
+	"Edit &selected tunnel…":                                                                          144,
+	"Edit tunnel":                                                                                     82,
+	"Endpoint:":                                                                                       70,
 	"Error":                                                                                           0,
-	"Error Exiting WireGuard":                                                                         164,
-	"Error in getting configuration":                                                                  45,
-	"Error: %v. Please try again.":                                                                    170,
-	"Export all tunnels to &zip…":                                                                     139,
-	"Export all tunnels to zip":                                                                       137,
-	"Export log to file":                                                                              108,
-	"Export tunnels to zip":                                                                           162,
-	"Failed to activate tunnel":                                                                       73,
-	"Failed to deactivate tunnel":                                                                     74,
-	"Failed to determine tunnel state":                                                                72,
-	"File ‘%s’ already exists.\n\nDo you want to overwrite it?":                                       95,
-	"Import tunnel(s) from file":                                                                      160,
-	"Imported %d of %d tunnels":                                                                       148,
-	"Imported %d tunnels":                                                                             147,
-	"Imported tunnels":                                                                                146,
-	"Inactive":                                                                                        98,
-	"Interface: %s":                                                                                   75,
+	"Error Exiting WireGuard":                                                                         168,
+	"Error in getting configuration":                                                                  48,
+	"Error: %v. Please try again.":                                                                    174,
+	"Export all tunnels to &zip…":                                                                     143,
+	"Export all tunnels to zip":                                                                       141,
+	"Export log to file":                                                                              112,
+	"Export tunnels to zip":                                                                           166,
+	"Failed to activate tunnel":                                                                       77,
+	"Failed to deactivate tunnel":                                                                     78,
+	"Failed to determine tunnel state":                                                                76,
+	"File ‘%s’ already exists.\n\nDo you want to overwrite it?":                                       99,
+	"Hostname must not be empty":                                                                      35,
+	"Hostname must not exceed 255 characters":                                                         36,
+	"Import tunnel(s) from file":                                                                      164,
+	"Imported %d of %d tunnels":                                                                       152,
+	"Imported %d tunnels":                                                                             151,
+	"Imported tunnels":                                                                                150,
+	"Inactive":                                                                                        102,
+	"Interface: %s":                                                                                   79,
 	"Invalid IP address":                                                                              24,
 	"Invalid MTU":                                                                                     29,
-	"Invalid config key is missing an equals separator":                                               38,
+	"Invalid config key is missing an equals separator":                                               41,
+	"Invalid domain name":                                                                             37,
 	"Invalid endpoint host":                                                                           27,
-	"Invalid key for [Interface] section":                                                             40,
-	"Invalid key for [Peer] section":                                                                  41,
-	"Invalid key for interface section":                                                               46,
-	"Invalid key for peer section":                                                                    48,
+	"Invalid key for [Interface] section":                                                             43,
+	"Invalid key for [Peer] section":                                                                  44,
+	"Invalid key for interface section":                                                               49,
+	"Invalid key for peer section":                                                                    51,
 	"Invalid key: %v":                                                                                 32,
-	"Invalid name":                                                                                    87,
+	"Invalid name":                                                                                    91,
 	"Invalid network prefix length":                                                                   25,
 	"Invalid persistent keepalive":                                                                    31,
 	"Invalid port":                                                                                    30,
-	"Key must have a value":                                                                           39,
+	"Key must have a value":                                                                           42,
 	"Keys must decode to exactly 32 bytes":                                                            33,
-	"Latest handshake:":                                                                               68,
-	"Line must occur in a section":                                                                    37,
-	"Listen port:":                                                                                    60,
-	"Log":                                                                                             101,
-	"Log message":                                                                                     106,
-	"MTU:":                                                                                            61,
+	"Latest handshake:":                                                                               72,
+	"Line must occur in a section":                                                                    40,
+	"Listen port:":                                                                                    63,
+	"Log":                                                                                             105,
+	"Log message":                                                                                     110,
+	"MTU:":                                                                                            64,
 	"Missing port from endpoint":                                                                      26,
 	"Now":                                                                                             10,
 	"Number must be a number between 0 and 2^64-1: %v":                                                34,
-	"Peer":                                76,
-	"Persistent keepalive:":               67,
-	"Preshared key:":                      64,
-	"Protocol version must be 1":          47,
-	"Public key:":                         59,
-	"Remove selected tunnel(s)":           136,
-	"Select &all":                         103,
-	"Status:":                             56,
-	"Status: %s":                          123,
-	"Status: Complete!":                   171,
-	"Status: Unknown":                     116,
-	"Status: Waiting for updater service": 169,
-	"Status: Waiting for user":            167,
+	"Peer":                                80,
+	"Persistent keepalive:":               71,
+	"Preshared key:":                      68,
+	"Protocol version must be 1":          50,
+	"Public key:":                         62,
+	"Remove selected tunnel(s)":           140,
+	"Select &all":                         107,
+	"Status:":                             59,
+	"Status: %s":                          127,
+	"Status: Complete!":                   175,
+	"Status: Unknown":                     120,
+	"Status: Waiting for updater service": 173,
+	"Status: Waiting for user":            171,
 	"System clock wound backward!":        11,
-	"Text Files (*.txt)|*.txt|All Files (*.*)|*.*": 107,
-	"The %s tunnel has been activated.":            126,
-	"The %s tunnel has been deactivated.":          128,
-	"Time":                                         105,
-	"Transfer:":                                    69,
-	"Tunnel Error":                                 110,
-	"Tunnel already exists":                        91,
-	"Tunnel name is not valid":                     36,
-	"Tunnel name ‘%s’ is invalid.":                 89,
-	"Tunnels":                                      132,
-	"Two commas in a row":                          35,
-	"Unable to create new configuration":           93,
-	"Unable to create tunnel":                      149,
-	"Unable to delete tunnel":                      155,
-	"Unable to delete tunnels":                     157,
+	"Text Files (*.txt)|*.txt|All Files (*.*)|*.*": 111,
+	"The %s tunnel has been activated.":            130,
+	"The %s tunnel has been deactivated.":          132,
+	"Time":                                         109,
+	"Transfer:":                                    73,
+	"Tunnel Error":                                 114,
+	"Tunnel already exists":                        95,
+	"Tunnel name is not valid":                     39,
+	"Tunnel name ‘%s’ is invalid.":                 93,
+	"Tunnels":                                      136,
+	"Two commas in a row":                          38,
+	"Unable to create new configuration":           97,
+	"Unable to create tunnel":                      153,
+	"Unable to delete tunnel":                      159,
+	"Unable to delete tunnels":                     161,
 	"Unable to determine whether the process is running under WOW64: %v":                          4,
-	"Unable to exit service due to: %v. You may want to stop WireGuard from the service manager.": 165,
-	"Unable to import configuration: %v":                                                          145,
-	"Unable to list existing tunnels":                                                             90,
+	"Unable to exit service due to: %v. You may want to stop WireGuard from the service manager.": 169,
+	"Unable to import configuration: %v":                                                          149,
+	"Unable to list existing tunnels":                                                             94,
 	"Unable to open current process token: %v":                                                    6,
-	"Unable to wait for WireGuard window to appear: %v":                                           114,
-	"Unknown state":    100,
-	"Update Now":       168,
+	"Unable to wait for WireGuard window to appear: %v":                                           118,
+	"Unknown state":    104,
+	"Update Now":       172,
 	"Usage: %s [\n%s]": 2,
-	"When a configuration has exactly one peer, and that peer has an allowed IPs containing at least one of 0.0.0.0/0 or ::/0, then the tunnel service engages a firewall ruleset to block all traffic that is neither to nor from the tunnel interface, with special exceptions for DHCP and NDP.": 83,
-	"WireGuard Activated":        125,
-	"WireGuard Deactivated":      127,
-	"WireGuard Detection Error":  113,
-	"WireGuard Tunnel Error":     121,
-	"WireGuard Update Available": 130,
+	"When a configuration has exactly one peer, and that peer has an allowed IPs containing at least one of 0.0.0.0/0 or ::/0, then the tunnel service engages a firewall ruleset to block all traffic that is neither to nor from the tunnel interface, with special exceptions for DHCP and NDP.": 87,
+	"WireGuard Activated":        129,
+	"WireGuard Deactivated":      131,
+	"WireGuard Detection Error":  117,
+	"WireGuard Tunnel Error":     125,
+	"WireGuard Update Available": 134,
 	"WireGuard is running, but the UI is only accessible from desktops of the Builtin %s group.": 8,
-	"WireGuard logo image": 52,
+	"WireGuard logo image": 55,
 	"WireGuard may only be used by users who are a member of the Builtin %s group.": 7,
 	"WireGuard system tray icon did not appear after 30 seconds.":                   9,
-	"WireGuard: %s":          122,
-	"WireGuard: Deactivated": 115,
-	"Writing file failed":    94,
+	"WireGuard: %s":          126,
+	"WireGuard: Deactivated": 119,
+	"Writing file failed":    98,
 	"You must use the 64-bit version of WireGuard on this computer.": 5,
-	"[EnumerationSeparator]": 49,
-	"[UnitSeparator]":        50,
-	"[none specified]":       43,
-	"enabled":                70,
-	"http2: Framer %p: failed to decode just-written frame": 172,
-	"http2: Framer %p: read %v":                             174,
-	"http2: Framer %p: wrote %v":                            173,
-	"http2: decoded hpack field %+v":                        175,
-	"♥ &Donate!":                                            55,
+	"[EnumerationSeparator]": 52,
+	"[UnitSeparator]":        53,
+	"[none specified]":       46,
+	"enabled":                74,
+	"http2: Framer %p: failed to decode just-written frame": 176,
+	"http2: Framer %p: read %v":                             178,
+	"http2: Framer %p: wrote %v":                            177,
+	"http2: decoded hpack field %+v":                        179,
+	"♥ &Donate!":                                            58,
 }
 
-var enIndex = []uint32{ // 177 elements
+var enIndex = []uint32{ // 181 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000006, 0x00000039, 0x0000004f,
 	0x00000064, 0x000000aa, 0x000000e9, 0x00000115,
@@ -231,49 +235,50 @@ var enIndex = []uint32{ // 177 elements
 	0x0000037d, 0x000003a3, 0x000003af, 0x000003bc,
 	// Entry 20 - 3F
 	0x000003d9, 0x000003ec, 0x00000411, 0x00000445,
-	0x00000459, 0x00000472, 0x0000048f, 0x000004c1,
-	0x000004d7, 0x000004fb, 0x0000051a, 0x0000053f,
-	0x00000550, 0x00000570, 0x0000058f, 0x000005b1,
-	0x000005cc, 0x000005e9, 0x000005ec, 0x000005ef,
-	0x000005ff, 0x00000614, 0x0000067f, 0x00000685,
-	0x00000692, 0x0000069a, 0x000006a6, 0x000006b0,
-	0x000006bc, 0x000006c9, 0x000006ce, 0x000006d9,
+	0x00000460, 0x00000488, 0x0000049c, 0x000004b0,
+	0x000004c9, 0x000004e6, 0x00000518, 0x0000052e,
+	0x00000552, 0x00000571, 0x00000596, 0x000005a7,
+	0x000005c7, 0x000005e6, 0x00000608, 0x00000623,
+	0x00000640, 0x00000643, 0x00000646, 0x00000656,
+	0x0000066b, 0x000006d6, 0x000006dc, 0x000006e9,
+	0x000006f1, 0x000006fd, 0x00000707, 0x00000713,
 	// Entry 40 - 5F
-	0x000006e6, 0x000006f5, 0x00000702, 0x0000070c,
-	0x00000722, 0x00000734, 0x0000073e, 0x00000746,
-	0x00000761, 0x00000782, 0x0000079c, 0x000007b8,
-	0x000007c9, 0x000007ce, 0x000007e0, 0x000007ec,
-	0x000007f3, 0x00000800, 0x0000080a, 0x00000832,
-	0x00000950, 0x00000956, 0x0000095d, 0x0000096d,
-	0x0000097a, 0x0000098e, 0x000009b2, 0x000009d2,
-	0x000009e8, 0x00000a21, 0x00000a44, 0x00000a58,
+	0x00000720, 0x00000725, 0x00000730, 0x0000073d,
+	0x00000749, 0x00000758, 0x00000765, 0x0000076f,
+	0x00000785, 0x00000797, 0x000007a1, 0x000007a9,
+	0x000007c4, 0x000007e5, 0x000007ff, 0x0000081b,
+	0x0000082c, 0x00000831, 0x00000843, 0x0000084f,
+	0x00000856, 0x00000863, 0x0000086d, 0x00000895,
+	0x000009b3, 0x000009b9, 0x000009c0, 0x000009d0,
+	0x000009dd, 0x000009f1, 0x00000a15, 0x00000a35,
 	// Entry 60 - 7F
-	0x00000a97, 0x00000a9e, 0x00000aa9, 0x00000ab2,
-	0x00000abf, 0x00000acd, 0x00000ad1, 0x00000ad7,
-	0x00000ae3, 0x00000af4, 0x00000af9, 0x00000b05,
-	0x00000b32, 0x00000b45, 0x00000b59, 0x00000b66,
-	0x00000b9a, 0x00000bae, 0x00000bc8, 0x00000bfd,
-	0x00000c14, 0x00000c24, 0x00000c34, 0x00000c47,
-	0x00000c66, 0x00000c6c, 0x00000c83, 0x00000c94,
-	0x00000ca2, 0x00000cb3, 0x00000cc7, 0x00000cec,
+	0x00000a4b, 0x00000a84, 0x00000aa7, 0x00000abb,
+	0x00000afa, 0x00000b01, 0x00000b0c, 0x00000b15,
+	0x00000b22, 0x00000b30, 0x00000b34, 0x00000b3a,
+	0x00000b46, 0x00000b57, 0x00000b5c, 0x00000b68,
+	0x00000b95, 0x00000ba8, 0x00000bbc, 0x00000bc9,
+	0x00000bfd, 0x00000c11, 0x00000c2b, 0x00000c60,
+	0x00000c77, 0x00000c87, 0x00000c97, 0x00000caa,
+	0x00000cc9, 0x00000ccf, 0x00000ce6, 0x00000cf7,
 	// Entry 80 - 9F
-	0x00000d02, 0x00000d29, 0x00000d41, 0x00000d5c,
-	0x00000db4, 0x00000dbc, 0x00000dc2, 0x00000dd7,
-	0x00000de2, 0x00000dfc, 0x00000e16, 0x00000e1e,
-	0x00000e3c, 0x00000e55, 0x00000e70, 0x00000e9f,
-	0x00000ecb, 0x00000f03, 0x00000f29, 0x00000f3a,
-	0x00000f70, 0x00000fb7, 0x00000fcf, 0x00001001,
-	0x00001073, 0x0000108d, 0x000010c7, 0x000010ea,
-	0x00001102, 0x0000112b, 0x00001144, 0x0000119d,
+	0x00000d05, 0x00000d16, 0x00000d2a, 0x00000d4f,
+	0x00000d65, 0x00000d8c, 0x00000da4, 0x00000dbf,
+	0x00000e17, 0x00000e1f, 0x00000e25, 0x00000e3a,
+	0x00000e45, 0x00000e5f, 0x00000e79, 0x00000e81,
+	0x00000e9f, 0x00000eb8, 0x00000ed3, 0x00000f02,
+	0x00000f2e, 0x00000f66, 0x00000f8c, 0x00000f9d,
+	0x00000fd3, 0x0000101a, 0x00001032, 0x00001064,
+	0x000010d6, 0x000010f0, 0x0000112a, 0x0000114d,
 	// Entry A0 - BF
-	0x000011e2, 0x000011fd, 0x00001223, 0x00001239,
-	0x0000125c, 0x00001274, 0x000012d3, 0x00001328,
-	0x00001341, 0x0000134c, 0x00001370, 0x00001390,
-	0x000013a2, 0x000013db, 0x000013fc, 0x0000141c,
-	0x0000143e,
-} // Size: 732 bytes
+	0x00001165, 0x0000118e, 0x000011a7, 0x00001200,
+	0x00001245, 0x00001260, 0x00001286, 0x0000129c,
+	0x000012bf, 0x000012d7, 0x00001336, 0x0000138b,
+	0x000013a4, 0x000013af, 0x000013d3, 0x000013f3,
+	0x00001405, 0x0000143e, 0x0000145f, 0x0000147f,
+	0x000014a1,
+} // Size: 748 bytes
 
-const enData string = "" + // Size: 5182 bytes
+const enData string = "" + // Size: 5281 bytes
 	"\x02Error\x02(no argument): elevate and install manager service\x02Usage" +
 	": %[1]s [\x0a%[2]s]\x02Command Line Options\x02Unable to determine wheth" +
 	"er the process is running under WOW64: %[1]v\x02You must use the 64-bit " +
@@ -293,73 +298,75 @@ const enData string = "" + // Size: 5182 bytes
 	"dpoint host\x02Brackets must contain an IPv6 address\x02Invalid MTU\x02I" +
 	"nvalid port\x02Invalid persistent keepalive\x02Invalid key: %[1]v\x02Key" +
 	"s must decode to exactly 32 bytes\x02Number must be a number between 0 a" +
-	"nd 2^64-1: %[1]v\x02Two commas in a row\x02Tunnel name is not valid\x02L" +
-	"ine must occur in a section\x02Invalid config key is missing an equals s" +
-	"eparator\x02Key must have a value\x02Invalid key for [Interface] section" +
-	"\x02Invalid key for [Peer] section\x02An interface must have a private k" +
-	"ey\x02[none specified]\x02All peers must have public keys\x02Error in ge" +
-	"tting configuration\x02Invalid key for interface section\x02Protocol ver" +
-	"sion must be 1\x02Invalid key for peer section\x02, \x02, \x02About Wire" +
-	"Guard\x02WireGuard logo image\x02App version: %[1]s\x0aGo backend versio" +
-	"n: %[2]s\x0aGo version: %[3]s\x0aOperating system: %[4]s\x0aArchitecture" +
-	": %[5]s\x02Close\x02♥ &Donate!\x02Status:\x02&Deactivate\x02&Activate" +
-	"\x02Public key:\x02Listen port:\x02MTU:\x02Addresses:\x02DNS servers:" +
-	"\x02Preshared key:\x02Allowed IPs:\x02Endpoint:\x02Persistent keepalive:" +
-	"\x02Latest handshake:\x02Transfer:\x02enabled\x02%[1]s received, %[2]s s" +
-	"ent\x02Failed to determine tunnel state\x02Failed to activate tunnel\x02" +
-	"Failed to deactivate tunnel\x02Interface: %[1]s\x02Peer\x02Create new tu" +
-	"nnel\x02Edit tunnel\x02&Name:\x02&Public key:\x02(unknown)\x02&Block unt" +
-	"unneled traffic (kill-switch)\x02When a configuration has exactly one pe" +
-	"er, and that peer has an allowed IPs containing at least one of 0.0.0.0/" +
-	"0 or ::/0, then the tunnel service engages a firewall ruleset to block a" +
-	"ll traffic that is neither to nor from the tunnel interface, with specia" +
-	"l exceptions for DHCP and NDP.\x02&Save\x02Cancel\x02&Configuration:\x02" +
-	"Invalid name\x02A name is required.\x02Tunnel name ‘%[1]s’ is invalid." +
-	"\x02Unable to list existing tunnels\x02Tunnel already exists\x02Another " +
-	"tunnel already exists with the name ‘%[1]s’.\x02Unable to create new con" +
-	"figuration\x02Writing file failed\x02File ‘%[1]s’ already exists.\x0a" +
-	"\x0aDo you want to overwrite it?\x02Active\x02Activating\x02Inactive\x02" +
-	"Deactivating\x02Unknown state\x02Log\x02&Copy\x02Select &all\x02&Save to" +
-	" file…\x02Time\x02Log message\x02Text Files (*.txt)|*.txt|All Files (*.*" +
-	")|*.*\x02Export log to file\x02&About WireGuard…\x02Tunnel Error\x02%[1]" +
-	"s\x0a\x0aPlease consult the log for more information.\x02%[1]s (out of d" +
-	"ate)\x02WireGuard Detection Error\x02Unable to wait for WireGuard window" +
-	" to appear: %[1]v\x02WireGuard: Deactivated\x02Status: Unknown\x02Addres" +
-	"ses: None\x02&Manage tunnels…\x02&Import tunnel(s) from file…\x02E&xit" +
-	"\x02WireGuard Tunnel Error\x02WireGuard: %[1]s\x02Status: %[1]s\x02Addre" +
-	"sses: %[1]s\x02WireGuard Activated\x02The %[1]s tunnel has been activate" +
-	"d.\x02WireGuard Deactivated\x02The %[1]s tunnel has been deactivated." +
-	"\x02An Update is Available!\x02WireGuard Update Available\x02An update t" +
-	"o WireGuard is now available. You are advised to update as soon as possi" +
-	"ble.\x02Tunnels\x02&Edit\x02Add &empty tunnel…\x02Add Tunnel\x02Remove s" +
-	"elected tunnel(s)\x02Export all tunnels to zip\x02&Toggle\x02Export all " +
-	"tunnels to &zip…\x02Edit &selected tunnel…\x02&Remove selected tunnel(s)" +
-	"\x02Could not import selected configuration: %[1]v\x02Could not enumerat" +
-	"e existing tunnels: %[1]v\x02Another tunnel already exists with the name" +
-	" ‘%[1]s’\x02Unable to import configuration: %[1]v\x02Imported tunnels" +
-	"\x14\x01\x81\x01\x00\x02\x16\x02Imported %[1]d tunnel\x00\x17\x02Importe" +
-	"d %[1]d tunnels\x14\x02\x80\x01\x02\x1f\x02Imported %[1]d of %[2]d tunne" +
-	"l\x00 \x02Imported %[1]d of %[2]d tunnels\x02Unable to create tunnel\x14" +
-	"\x01\x81\x01\x00\x02\x14\x02Delete %[1]d tunnel\x00\x15\x02Delete %[1]d " +
-	"tunnels\x14\x01\x81\x01\x00\x024\x02Are you sure you would like to delet" +
-	"e %[1]d tunnel?\x005\x02Are you sure you would like to delete %[1]d tunn" +
-	"els?\x02Delete tunnel ‘%[1]s’\x02Are you sure you would like to delete t" +
-	"unnel ‘%[1]s’?\x02%[1]s You cannot undo this action.\x02Unable to delete" +
-	" tunnel\x02A tunnel was unable to be removed: %[1]s\x02Unable to delete " +
-	"tunnels\x14\x01\x81\x01\x00\x02'\x02%[1]d tunnel was unable to be remove" +
-	"d.\x00)\x02%[1]d tunnels were unable to be removed.\x02Configuration Fil" +
-	"es (*.zip, *.conf)|*.zip;*.conf|All Files (*.*)|*.*\x02Import tunnel(s) " +
-	"from file\x02Configuration ZIP Files (*.zip)|*.zip\x02Export tunnels to " +
-	"zip\x02%[1]s (unsigned build, no updates)\x02Error Exiting WireGuard\x02" +
-	"Unable to exit service due to: %[1]v. You may want to stop WireGuard fro" +
-	"m the service manager.\x02An update to WireGuard is available. It is hig" +
-	"hly advisable to update without delay.\x02Status: Waiting for user\x02Up" +
-	"date Now\x02Status: Waiting for updater service\x02Error: %[1]v. Please " +
-	"try again.\x02Status: Complete!\x02http2: Framer %[1]p: failed to decode" +
-	" just-written frame\x02http2: Framer %[1]p: wrote %[2]v\x02http2: Framer" +
-	" %[1]p: read %[2]v\x02http2: decoded hpack field %+[1]v"
+	"nd 2^64-1: %[1]v\x02Hostname must not be empty\x02Hostname must not exce" +
+	"ed 255 characters\x02Invalid domain name\x02Two commas in a row\x02Tunne" +
+	"l name is not valid\x02Line must occur in a section\x02Invalid config ke" +
+	"y is missing an equals separator\x02Key must have a value\x02Invalid key" +
+	" for [Interface] section\x02Invalid key for [Peer] section\x02An interfa" +
+	"ce must have a private key\x02[none specified]\x02All peers must have pu" +
+	"blic keys\x02Error in getting configuration\x02Invalid key for interface" +
+	" section\x02Protocol version must be 1\x02Invalid key for peer section" +
+	"\x02, \x02, \x02About WireGuard\x02WireGuard logo image\x02App version: " +
+	"%[1]s\x0aGo backend version: %[2]s\x0aGo version: %[3]s\x0aOperating sys" +
+	"tem: %[4]s\x0aArchitecture: %[5]s\x02Close\x02♥ &Donate!\x02Status:\x02&" +
+	"Deactivate\x02&Activate\x02Public key:\x02Listen port:\x02MTU:\x02Addres" +
+	"ses:\x02DNS servers:\x02DNS suffix:\x02Preshared key:\x02Allowed IPs:" +
+	"\x02Endpoint:\x02Persistent keepalive:\x02Latest handshake:\x02Transfer:" +
+	"\x02enabled\x02%[1]s received, %[2]s sent\x02Failed to determine tunnel " +
+	"state\x02Failed to activate tunnel\x02Failed to deactivate tunnel\x02Int" +
+	"erface: %[1]s\x02Peer\x02Create new tunnel\x02Edit tunnel\x02&Name:\x02&" +
+	"Public key:\x02(unknown)\x02&Block untunneled traffic (kill-switch)\x02W" +
+	"hen a configuration has exactly one peer, and that peer has an allowed I" +
+	"Ps containing at least one of 0.0.0.0/0 or ::/0, then the tunnel service" +
+	" engages a firewall ruleset to block all traffic that is neither to nor " +
+	"from the tunnel interface, with special exceptions for DHCP and NDP.\x02" +
+	"&Save\x02Cancel\x02&Configuration:\x02Invalid name\x02A name is required" +
+	".\x02Tunnel name ‘%[1]s’ is invalid.\x02Unable to list existing tunnels" +
+	"\x02Tunnel already exists\x02Another tunnel already exists with the name" +
+	" ‘%[1]s’.\x02Unable to create new configuration\x02Writing file failed" +
+	"\x02File ‘%[1]s’ already exists.\x0a\x0aDo you want to overwrite it?\x02" +
+	"Active\x02Activating\x02Inactive\x02Deactivating\x02Unknown state\x02Log" +
+	"\x02&Copy\x02Select &all\x02&Save to file…\x02Time\x02Log message\x02Tex" +
+	"t Files (*.txt)|*.txt|All Files (*.*)|*.*\x02Export log to file\x02&Abou" +
+	"t WireGuard…\x02Tunnel Error\x02%[1]s\x0a\x0aPlease consult the log for " +
+	"more information.\x02%[1]s (out of date)\x02WireGuard Detection Error" +
+	"\x02Unable to wait for WireGuard window to appear: %[1]v\x02WireGuard: D" +
+	"eactivated\x02Status: Unknown\x02Addresses: None\x02&Manage tunnels…\x02" +
+	"&Import tunnel(s) from file…\x02E&xit\x02WireGuard Tunnel Error\x02WireG" +
+	"uard: %[1]s\x02Status: %[1]s\x02Addresses: %[1]s\x02WireGuard Activated" +
+	"\x02The %[1]s tunnel has been activated.\x02WireGuard Deactivated\x02The" +
+	" %[1]s tunnel has been deactivated.\x02An Update is Available!\x02WireGu" +
+	"ard Update Available\x02An update to WireGuard is now available. You are" +
+	" advised to update as soon as possible.\x02Tunnels\x02&Edit\x02Add &empt" +
+	"y tunnel…\x02Add Tunnel\x02Remove selected tunnel(s)\x02Export all tunne" +
+	"ls to zip\x02&Toggle\x02Export all tunnels to &zip…\x02Edit &selected tu" +
+	"nnel…\x02&Remove selected tunnel(s)\x02Could not import selected configu" +
+	"ration: %[1]v\x02Could not enumerate existing tunnels: %[1]v\x02Another " +
+	"tunnel already exists with the name ‘%[1]s’\x02Unable to import configur" +
+	"ation: %[1]v\x02Imported tunnels\x14\x01\x81\x01\x00\x02\x16\x02Imported" +
+	" %[1]d tunnel\x00\x17\x02Imported %[1]d tunnels\x14\x02\x80\x01\x02\x1f" +
+	"\x02Imported %[1]d of %[2]d tunnel\x00 \x02Imported %[1]d of %[2]d tunne" +
+	"ls\x02Unable to create tunnel\x14\x01\x81\x01\x00\x02\x14\x02Delete %[1]" +
+	"d tunnel\x00\x15\x02Delete %[1]d tunnels\x14\x01\x81\x01\x00\x024\x02Are" +
+	" you sure you would like to delete %[1]d tunnel?\x005\x02Are you sure yo" +
+	"u would like to delete %[1]d tunnels?\x02Delete tunnel ‘%[1]s’\x02Are yo" +
+	"u sure you would like to delete tunnel ‘%[1]s’?\x02%[1]s You cannot undo" +
+	" this action.\x02Unable to delete tunnel\x02A tunnel was unable to be re" +
+	"moved: %[1]s\x02Unable to delete tunnels\x14\x01\x81\x01\x00\x02'\x02%[1" +
+	"]d tunnel was unable to be removed.\x00)\x02%[1]d tunnels were unable to" +
+	" be removed.\x02Configuration Files (*.zip, *.conf)|*.zip;*.conf|All Fil" +
+	"es (*.*)|*.*\x02Import tunnel(s) from file\x02Configuration ZIP Files (*" +
+	".zip)|*.zip\x02Export tunnels to zip\x02%[1]s (unsigned build, no update" +
+	"s)\x02Error Exiting WireGuard\x02Unable to exit service due to: %[1]v. Y" +
+	"ou may want to stop WireGuard from the service manager.\x02An update to " +
+	"WireGuard is available. It is highly advisable to update without delay." +
+	"\x02Status: Waiting for user\x02Update Now\x02Status: Waiting for update" +
+	"r service\x02Error: %[1]v. Please try again.\x02Status: Complete!\x02htt" +
+	"p2: Framer %[1]p: failed to decode just-written frame\x02http2: Framer %" +
+	"[1]p: wrote %[2]v\x02http2: Framer %[1]p: read %[2]v\x02http2: decoded h" +
+	"pack field %+[1]v"
 
-var frIndex = []uint32{ // 177 elements
+var frIndex = []uint32{ // 181 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000046, 0x00000063,
 	0x00000083, 0x000000cb, 0x00000108, 0x00000141,
@@ -371,14 +378,15 @@ var frIndex = []uint32{ // 177 elements
 	0x00000433, 0x00000465, 0x00000474, 0x00000484,
 	// Entry 20 - 3F
 	0x000004bb, 0x000004d3, 0x00000500, 0x0000053b,
-	0x00000557, 0x00000570, 0x0000059c, 0x000005e4,
-	0x000005ff, 0x0000062b, 0x00000652, 0x0000067a,
-	0x00000692, 0x000006ca, 0x000006f1, 0x0000071d,
-	0x0000073f, 0x0000076b, 0x0000076e, 0x00000770,
-	0x00000787, 0x000007a2, 0x00000828, 0x0000082f,
-	0x00000843, 0x0000084b, 0x00000858, 0x00000861,
-	0x00000871, 0x00000882, 0x00000888, 0x00000893,
+	0x0000053b, 0x0000053b, 0x0000053b, 0x00000557,
+	0x00000570, 0x0000059c, 0x000005e4, 0x000005ff,
+	0x0000062b, 0x00000652, 0x0000067a, 0x00000692,
+	0x000006ca, 0x000006f1, 0x0000071d, 0x0000073f,
+	0x0000076b, 0x0000076e, 0x00000770, 0x00000787,
+	0x000007a2, 0x00000828, 0x0000082f, 0x00000843,
+	0x0000084b, 0x00000858, 0x00000861, 0x00000871,
 	// Entry 40 - 5F
+	0x00000882, 0x00000888, 0x00000893, 0x000008a2,
 	0x000008a2, 0x000008b8, 0x000008d2, 0x000008e9,
 	0x00000917, 0x0000093e, 0x0000094a, 0x00000955,
 	0x00000976, 0x000009a2, 0x000009c1, 0x000009e5,
@@ -386,8 +394,8 @@ var frIndex = []uint32{ // 177 elements
 	0x00000a34, 0x00000a45, 0x00000a52, 0x00000a85,
 	0x00000be0, 0x00000bed, 0x00000bf5, 0x00000c06,
 	0x00000c15, 0x00000c2d, 0x00000c57, 0x00000c8c,
-	0x00000ca2, 0x00000cd6, 0x00000d06, 0x00000d24,
 	// Entry 60 - 7F
+	0x00000ca2, 0x00000cd6, 0x00000d06, 0x00000d24,
 	0x00000d63, 0x00000d6e, 0x00000d82, 0x00000d8f,
 	0x00000da7, 0x00000db5, 0x00000dbd, 0x00000dc5,
 	0x00000dd9, 0x00000df9, 0x00000dff, 0x00000e12,
@@ -395,8 +403,8 @@ var frIndex = []uint32{ // 177 elements
 	0x00000ee2, 0x00000ef4, 0x00000f16, 0x00000f58,
 	0x00000f6f, 0x00000f7f, 0x00000f91, 0x00000fa9,
 	0x00000fdb, 0x00000fe4, 0x00000fff, 0x00001011,
-	0x0000101f, 0x00001030, 0x00001042, 0x00001060,
 	// Entry 80 - 9F
+	0x0000101f, 0x00001030, 0x00001042, 0x00001060,
 	0x00001076, 0x00001098, 0x000010b1, 0x000010d7,
 	0x0000114c, 0x00001154, 0x0000115e, 0x00001179,
 	0x0000118b, 0x000011b6, 0x000011d9, 0x000011e3,
@@ -404,14 +412,14 @@ var frIndex = []uint32{ // 177 elements
 	0x000012d0, 0x000012fc, 0x0000132b, 0x0000133d,
 	0x00001374, 0x000013bd, 0x000013dc, 0x00001414,
 	0x00001478, 0x00001498, 0x000014ce, 0x000014fd,
-	0x0000151f, 0x00001554, 0x00001578, 0x000015e4,
 	// Entry A0 - BF
+	0x0000151f, 0x00001554, 0x00001578, 0x000015e4,
 	0x00001637, 0x00001665, 0x00001691, 0x000016af,
 	0x000016e0, 0x000016fe, 0x00001779, 0x000017f2,
 	0x00001817, 0x00001831, 0x00001860, 0x00001885,
 	0x00001896, 0x000018db, 0x00001900, 0x00001922,
 	0x00001946,
-} // Size: 732 bytes
+} // Size: 748 bytes
 
 const frData string = "" + // Size: 6470 bytes
 	"\x02Erreur\x02(sans argument) : élever et installer service du gestionna" +
@@ -515,7 +523,7 @@ const frData string = "" + // Size: 6470 bytes
 	".\x02http2: Trameur %[1]p: a écrit %[2]v\x02http2: Trameur %[1]p : a lu " +
 	"%[2]v\x02http2 : champ hpack %+[1]v décodé"
 
-var jaIndex = []uint32{ // 177 elements
+var jaIndex = []uint32{ // 181 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000000a, 0x00000067, 0x00000081,
 	0x000000a6, 0x000000ef, 0x00000145, 0x00000180,
@@ -527,14 +535,15 @@ var jaIndex = []uint32{ // 177 elements
 	0x00000410, 0x00000450, 0x00000465, 0x0000047e,
 	// Entry 20 - 3F
 	0x000004a9, 0x000004bd, 0x000004ef, 0x00000542,
-	0x00000566, 0x00000585, 0x000005b0, 0x000005f4,
-	0x00000625, 0x00000665, 0x000006a0, 0x000006d7,
-	0x000006e6, 0x00000717, 0x00000736, 0x0000077c,
-	0x000007bf, 0x000007f3, 0x000007f6, 0x000007f8,
-	0x0000080f, 0x00000826, 0x00000891, 0x0000089b,
-	0x000008b7, 0x000008bf, 0x000008cd, 0x000008db,
-	0x000008e6, 0x000008fd, 0x00000902, 0x00000910,
+	0x00000542, 0x00000542, 0x00000542, 0x00000566,
+	0x00000585, 0x000005b0, 0x000005f4, 0x00000625,
+	0x00000665, 0x000006a0, 0x000006d7, 0x000006e6,
+	0x00000717, 0x00000736, 0x0000077c, 0x000007bf,
+	0x000007f3, 0x000007f6, 0x000007f8, 0x0000080f,
+	0x00000826, 0x00000891, 0x0000089b, 0x000008b7,
+	0x000008bf, 0x000008cd, 0x000008db, 0x000008e6,
 	// Entry 40 - 5F
+	0x000008fd, 0x00000902, 0x00000910, 0x0000091f,
 	0x0000091f, 0x00000930, 0x0000093d, 0x00000954,
 	0x00000974, 0x00000994, 0x0000099c, 0x000009a3,
 	0x000009cb, 0x000009fc, 0x00000a2a, 0x00000a58,
@@ -542,8 +551,8 @@ var jaIndex = []uint32{ // 177 elements
 	0x00000abd, 0x00000acc, 0x00000ad5, 0x00000b2e,
 	0x00000c62, 0x00000c6d, 0x00000c7d, 0x00000c89,
 	0x00000c99, 0x00000cb2, 0x00000ce1, 0x00000d0f,
-	0x00000d37, 0x00000d86, 0x00000dae, 0x00000dd3,
 	// Entry 60 - 7F
+	0x00000d37, 0x00000d86, 0x00000dae, 0x00000dd3,
 	0x00000e25, 0x00000e2c, 0x00000e39, 0x00000e40,
 	0x00000e4d, 0x00000e5d, 0x00000e64, 0x00000e72,
 	0x00000e86, 0x00000ea3, 0x00000eaa, 0x00000ec0,
@@ -551,8 +560,8 @@ var jaIndex = []uint32{ // 177 elements
 	0x00000f9d, 0x00000fb0, 0x00000fca, 0x0000100c,
 	0x00001027, 0x00001036, 0x0000104b, 0x00001068,
 	0x0000109d, 0x000010a8, 0x000010c8, 0x000010d9,
-	0x000010e7, 0x000010fb, 0x00001115, 0x00001147,
 	// Entry 80 - 9F
+	0x000010e7, 0x000010fb, 0x00001115, 0x00001147,
 	0x00001161, 0x00001193, 0x000011b2, 0x000011db,
 	0x00001243, 0x00001250, 0x0000125b, 0x0000127e,
 	0x00001294, 0x000012b6, 0x000012ea, 0x000012fb,
@@ -560,14 +569,14 @@ var jaIndex = []uint32{ // 177 elements
 	0x00001407, 0x00001453, 0x00001482, 0x000014a1,
 	0x000014d2, 0x00001513, 0x00001538, 0x00001554,
 	0x0000158f, 0x000015b2, 0x000015ed, 0x0000161e,
-	0x00001643, 0x00001678, 0x0000169d, 0x000016d1,
 	// Entry A0 - BF
+	0x00001643, 0x00001678, 0x0000169d, 0x000016d1,
 	0x00001724, 0x00001755, 0x0000177f, 0x000017a7,
 	0x000017dd, 0x0000180d, 0x00001888, 0x000018ed,
 	0x00001917, 0x00001927, 0x0000195a, 0x0000198f,
 	0x000019a1, 0x000019e7, 0x00001a1b, 0x00001a4f,
 	0x00001a8f,
-} // Size: 732 bytes
+} // Size: 748 bytes
 
 const jaData string = "" + // Size: 6799 bytes
 	"\x02エラー\x02(引数なし): 管理者権限でmanagerサービスをインストールしてください\x02使い方: %[1]s [\x0a%[2" +
@@ -624,7 +633,7 @@ const jaData string = "" + // Size: 6799 bytes
 	"ramer %[1]p: %[2]v を書き込みました\x02http2: Framer %[1]p: %[2]v を読み込みました\x02ht" +
 	"tp2: hpack フィールド %+[1]v をデコードしました"
 
-var slIndex = []uint32{ // 177 elements
+var slIndex = []uint32{ // 181 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000007, 0x00000058, 0x00000070,
 	0x00000089, 0x000000c1, 0x00000107, 0x0000013e,
@@ -636,49 +645,50 @@ var slIndex = []uint32{ // 177 elements
 	0x0000045d, 0x00000483, 0x00000490, 0x0000049f,
 	// Entry 20 - 3F
 	0x000004c3, 0x000004da, 0x0000050b, 0x0000053f,
-	0x00000554, 0x0000056b, 0x00000586, 0x000005be,
-	0x000005d9, 0x000005fe, 0x0000061e, 0x00000640,
-	0x0000064e, 0x00000675, 0x00000695, 0x000006b7,
-	0x000006d5, 0x000006f7, 0x000006fa, 0x000006fc,
-	0x00000709, 0x00000727, 0x0000079c, 0x000007a2,
-	0x000007b0, 0x000007b8, 0x000007c5, 0x000007d0,
-	0x000007de, 0x000007f1, 0x000007f6, 0x000007ff,
+	0x00000561, 0x00000592, 0x000005aa, 0x000005bf,
+	0x000005d6, 0x000005f1, 0x00000629, 0x00000644,
+	0x00000669, 0x00000689, 0x000006ab, 0x000006b9,
+	0x000006e0, 0x00000700, 0x00000722, 0x00000740,
+	0x00000762, 0x00000765, 0x00000767, 0x00000774,
+	0x00000792, 0x00000807, 0x0000080d, 0x0000081b,
+	0x00000823, 0x00000830, 0x0000083b, 0x00000849,
 	// Entry 40 - 5F
-	0x0000080f, 0x00000825, 0x00000836, 0x00000846,
-	0x00000862, 0x00000874, 0x0000087c, 0x00000887,
-	0x000008a4, 0x000008c8, 0x000008e6, 0x00000906,
-	0x00000915, 0x0000091d, 0x0000092f, 0x0000093b,
-	0x00000941, 0x00000950, 0x0000095a, 0x00000984,
-	0x00000aa5, 0x00000aad, 0x00000ab7, 0x00000ac7,
-	0x00000ad4, 0x00000ae4, 0x00000b06, 0x00000b36,
-	0x00000b48, 0x00000b73, 0x00000b9a, 0x00000bb8,
+	0x0000085c, 0x00000861, 0x0000086a, 0x0000087a,
+	0x00000887, 0x0000089d, 0x000008ae, 0x000008be,
+	0x000008da, 0x000008ec, 0x000008f4, 0x000008ff,
+	0x0000091c, 0x00000940, 0x0000095e, 0x0000097e,
+	0x0000098d, 0x00000995, 0x000009a7, 0x000009b3,
+	0x000009b9, 0x000009c8, 0x000009d2, 0x000009fc,
+	0x00000b1d, 0x00000b25, 0x00000b2f, 0x00000b3f,
+	0x00000b4c, 0x00000b5c, 0x00000b7e, 0x00000bae,
 	// Entry 60 - 7F
-	0x00000bf3, 0x00000bfb, 0x00000c07, 0x00000c11,
-	0x00000c1f, 0x00000c2e, 0x00000c36, 0x00000c3f,
-	0x00000c4b, 0x00000c63, 0x00000c68, 0x00000c7e,
-	0x00000cb6, 0x00000cd0, 0x00000ce3, 0x00000cf1,
-	0x00000d20, 0x00000d36, 0x00000d53, 0x00000d8e,
-	0x00000da5, 0x00000db4, 0x00000dc2, 0x00000dd9,
-	0x00000df8, 0x00000dff, 0x00000e17, 0x00000e28,
-	0x00000e36, 0x00000e45, 0x00000e59, 0x00000e77,
+	0x00000bc0, 0x00000beb, 0x00000c12, 0x00000c30,
+	0x00000c6b, 0x00000c73, 0x00000c7f, 0x00000c89,
+	0x00000c97, 0x00000ca6, 0x00000cae, 0x00000cb7,
+	0x00000cc3, 0x00000cdb, 0x00000ce0, 0x00000cf6,
+	0x00000d2e, 0x00000d48, 0x00000d5b, 0x00000d69,
+	0x00000d98, 0x00000dae, 0x00000dcb, 0x00000e06,
+	0x00000e1d, 0x00000e2c, 0x00000e3a, 0x00000e51,
+	0x00000e70, 0x00000e77, 0x00000e8f, 0x00000ea0,
 	// Entry 80 - 9F
-	0x00000e8d, 0x00000ead, 0x00000ec6, 0x00000ee6,
-	0x00000f2b, 0x00000f32, 0x00000f39, 0x00000f52,
-	0x00000f5e, 0x00000f76, 0x00000f8e, 0x00000f98,
-	0x00000fb6, 0x00000fcf, 0x00000fe8, 0x00001016,
-	0x00001049, 0x0000106e, 0x00001094, 0x000010a4,
-	0x00001108, 0x00001194, 0x000011b0, 0x00001215,
-	0x00001302, 0x0000131d, 0x00001358, 0x00001383,
-	0x0000139d, 0x000013c5, 0x000013e0, 0x00001494,
+	0x00000eae, 0x00000ebd, 0x00000ed1, 0x00000eef,
+	0x00000f05, 0x00000f25, 0x00000f3e, 0x00000f5e,
+	0x00000fa3, 0x00000faa, 0x00000fb1, 0x00000fca,
+	0x00000fd6, 0x00000fee, 0x00001006, 0x00001010,
+	0x0000102e, 0x00001047, 0x00001060, 0x0000108e,
+	0x000010c1, 0x000010e6, 0x0000110c, 0x0000111c,
+	0x00001180, 0x0000120c, 0x00001228, 0x0000128d,
+	0x0000137a, 0x00001395, 0x000013d0, 0x000013fb,
 	// Entry A0 - BF
-	0x000014e1, 0x000014fa, 0x00001525, 0x00001539,
-	0x00001568, 0x00001588, 0x000015f5, 0x00001648,
-	0x00001664, 0x00001672, 0x00001699, 0x000016bb,
-	0x000016cd, 0x00001715, 0x00001739, 0x0000175d,
-	0x00001782,
-} // Size: 732 bytes
+	0x00001415, 0x0000143d, 0x00001458, 0x0000150c,
+	0x00001559, 0x00001572, 0x0000159d, 0x000015b1,
+	0x000015e0, 0x00001600, 0x0000166d, 0x000016c0,
+	0x000016dc, 0x000016ea, 0x00001711, 0x00001733,
+	0x00001745, 0x0000178d, 0x000017b1, 0x000017d5,
+	0x000017fa,
+} // Size: 748 bytes
 
-const slData string = "" + // Size: 6018 bytes
+const slData string = "" + // Size: 6138 bytes
 	"\x02Napaka\x02(brez argumenta): povzdigni na skrbniške pravice in namest" +
 	"i skrbniško storitev\x02Uporaba: %[1]s [\x0a%[2]s]\x02Možnosti ukazne vr" +
 	"stice\x02Napaka pri določanju ali proces teče kot WOW64: %[1]v\x02Na tem" +
@@ -702,79 +712,81 @@ const slData string = "" + // Size: 6018 bytes
 	"titelj napačen\x02Oklepaji morajo vsebovati naslov IPv6\x02Napačen MTU" +
 	"\x02Napačna vrata\x02Napačno trajno ohranjanje povezave\x02Napačen ključ" +
 	": %[1]v\x02Dekodirani ključi morajo biti natanko 32 bajtov\x02Številka m" +
-	"ora biti število med 0 in 2^64-1: %[1]v\x02Dve zaporedni vejici\x02Ime t" +
-	"unela ni veljavno\x02Vrstica mora biti v odseku\x02Napačnemu ključu konf" +
-	"iguracije manjka ločilo-enačaj\x02Ključ mora imeti vrednost\x02Napačen k" +
-	"ljuč za odsek [Interface]\x02Napačen ključ za odsek [Peer]\x02Vmesnik mo" +
-	"ra imeti zasebni ključ\x02[ni navedeno]\x02Vsi vrstniki morajo imeti jav" +
-	"ni ključ\x02Napaka pri branju konfiguracije\x02Napačen ključ za odsek vm" +
-	"esnika\x02Verzija protokola mora biti 1\x02Napačen ključ za odsek vrstni" +
-	"ka\x02, \x02 \x02O WireGuardu\x02Slika WireGuardovega logotipa\x02Verzij" +
-	"a aplikacije: %[1]s\x0aVerzija wireguard-go: %[2]s\x0aVerzija Go: %[3]s" +
-	"\x0aOperacijski sistem: %[4]s\x0aArhitektura: %[5]s\x02Zapri\x02♥ &Donir" +
-	"aj!\x02Status:\x02&Deaktiviraj\x02&Aktiviraj\x02Javni ključ:\x02Vrata po" +
-	"slušanja:\x02MTU:\x02Naslovi:\x02Strežniki DNS:\x02Ključ v skupni rabi:" +
-	"\x02Dovoljeni IP-ji:\x02Končna točka:\x02Trajno ohranjanje povezave:\x02" +
-	"Zadnje rokovanje:\x02Prenos:\x02omogočeno\x02%[1]s prejeto, %[2]s poslan" +
-	"o\x02Napaka pri določanju stanja tunela\x02Napaka pri aktiviranju tunela" +
-	"\x02Napaka pri deaktiviranju tunela\x02Vmesnik: %[1]s\x02Vrstnik\x02Ustv" +
-	"ari nov tunel\x02Uredi tunel\x02&Ime:\x02&Javni ključ:\x02(neznano)\x02&" +
-	"Blokiraj promet izven tunela (varovalka)\x02Kadar ima konfiguracija nata" +
-	"nko enega vrstnika in njegov spisek dovoljenih IP-jev vsebuje vsaj enega" +
-	" izmed 0.0.0.0/0 ali ::/0, bo storitev tunela vzpostavila pravila požarn" +
-	"ega zidu, ki bodo blokirala ves promet, ki ni niti za niti iz vmesnika t" +
-	"unela s posebnimi izjemami za DHCP and NDP.\x02&Shrani\x02Prekliči\x02&K" +
-	"onfiguracija:\x02Napačno ime\x02Ime je obvezno.\x02Ime tunela »%[1]s« ni" +
-	" veljavno.\x02Napaka pri pripravi seznama obstoječih tunelov\x02Tunel že" +
-	" obstaja\x02Drug tunel z imenom »%[1]s« že obstaja.\x02Napaka pri izdela" +
-	"vi nove konfiguracije\x02Napaka pri pisanju v datoteko\x02Datoteka »%[1]" +
-	"s« že obstaja.\x0a\x0aAli jo želite prepisati?\x02Aktivno\x02Se aktivira" +
-	"\x02Neaktivno\x02Se deaktivira\x02Neznano stanje\x02Dnevnik\x02&Kopiraj" +
-	"\x02&Izberi vse\x02&Shrani v datoteko\u00a0…\x02Čas\x02Sporočilo v dnevn" +
-	"iku\x02Tekstovne datoteke (*.txt)|*.txt|Vse datoteke (*.*)|*.*\x02Izvozi" +
-	" dnevnik v datoteko\x02O WireGu&ardu\u00a0…\x02Napaka tunela\x02%[1]s" +
-	"\x0a\x0aDodatne informacije najdete v dnevniku.\x02%[1]s (neposodobljen)" +
-	"\x02Napaka zaznavanja WireGuarda\x02Čakanje, da se pojavi WireGuardovo o" +
-	"kno, ni možno: %[1]v\x02WireGuard: Deaktiviran\x02Status: Neznan\x02Nasl" +
-	"ovi: Brez\x02&Upravljaj tunele\u00a0…\x02Uvoz&i tunele iz datoteke\u00a0" +
-	"…\x02I&zhod\x02Napaka tunela WireGuard\x02WireGuard: %[1]s\x02Status: " +
-	"%[1]s\x02Naslovi: %[1]s\x02WireGuard aktiviran\x02Tunel %[1]s je bil akt" +
-	"iviran.\x02WireGuard deaktiviran\x02Tunel %[1]s je bil deaktiviran.\x02N" +
-	"a voljo je posodobitev!\x02Posodobitev WireGuarda na voljo\x02Posodobite" +
-	"v WireGuarda je na voljo. Svetujemo posodobitev čim prej.\x02Tuneli\x02U" +
-	"r&edi\x02Dodaj praz&en tunel\u00a0…\x02Dodaj tunel\x02Odstrani izbrane t" +
-	"unele\x02Izvozi vse tunele v zip\x02&Preklopi\x02Izvozi vse tunele v &zi" +
-	"p\u00a0…\x02Uredi i&zbran tunel\u00a0…\x02Odst&rani izbrane tunele\x02Na" +
-	"paka pri uvozu izbrane konfiguracije: %[1]v\x02Napaka pri preštevanju ob" +
-	"stoječih tunelov: %[1]v\x02Tunel z imenom »%[1]s« že obstaja\x02Napaka p" +
-	"ri uvozu konfiguracije: %[1]v\x02Uvoženi tuneli\x14\x01\x81\x01\x00\x04" +
-	"\x16\x02Uvoženi %[1]d tuneli\x02\x14\x02Uvožen %[1]d tunel\x03\x16\x02Uv" +
-	"ožena %[1]d tunela\x00\x17\x02Uvoženo %[1]d tunelov\x14\x01\x81\x01\x00" +
-	"\x04 \x02Uvoženi %[1]d od %[2]d tunelov\x02\x1f\x02Uvožen %[1]d od %[2]d" +
-	" tunelov\x03 \x02Uvožena %[1]d od %[2]d tunelov\x00 \x02Uvoženo %[1]d od" +
-	" %[2]d tunelov\x02Napaka pri stvaritvi tunela\x14\x01\x81\x01\x00\x04" +
-	"\x16\x02Izbriši %[1]d tunele\x02\x15\x02Izbriši %[1]d tunel\x03\x16\x02I" +
-	"zbriši %[1]d tunela\x00\x17\x02Izbriši %[1]d tunelov\x14\x01\x81\x01\x00" +
-	"\x048\x02Ali ste prepričani, da želite izbrisati %[1]d tunele?\x027\x02A" +
-	"li ste prepričani, da želite izbrisati %[1]d tunel?\x038\x02Ali ste prep" +
-	"ričani, da želite izbrisati %[1]d tunela?\x009\x02Ali ste prepričani, da" +
-	" želite izbrisati %[1]d tunelov?\x02Izbriši tunel ‘%[1]s’\x02Ali ste pre" +
-	"pričani, da želite izbrisati tunel »%[1]s«?\x02%[1]s Tega dejanja ne mor" +
-	"ete razveljaviti.\x02Napaka pri izbrisu tunela\x02Napaka pri odstranjeva" +
-	"nju tunela: %[1]s\x02Napaka pri izbrisu tunelov\x14\x01\x81\x01\x00\x04*" +
-	"\x02%[1]d tunelov ni bilo mogoče odstraniti.\x02)\x02%[1]d tunela ni bil" +
-	"o mogoče odstraniti.\x03*\x02%[1]d tunelov ni bilo mogoče odstraniti." +
-	"\x00*\x02%[1]d tunelov ni bilo mogoče odstraniti.\x02Konfiguracijske dat" +
-	"oteke (*.zip, *.conf)|*.zip;*.conf|Vse datoteke (*.*)|*.*\x02Uvozi tunel" +
-	"e iz datoteke\x02Konfiguracijske datoteke ZIP (*.zip)|*.zip\x02Izvozi tu" +
-	"nele v zip\x02%[1]s (nepodpisane izdelave, brez posodobitev)\x02Napaka p" +
-	"ri izhodu iz WireGuarda\x02Storitve ni bilo mogoče zaustaviti, ker: %[1]" +
-	"v. Poskusite zaustaviti WireGuard z uporabo programa Storitve.\x02Posodo" +
-	"bitev WireGuarda je na voljo. Zelo priporočamo posodobitev brez odlašanj" +
-	"a.\x02Status: Čaka na uporabnika\x02Posodobi zdaj\x02Status: Čaka na ser" +
-	"vis za posodobitev\x02Napaka: %[1]v. Poskusite ponovno.\x02Status: Konča" +
-	"no!\x02http2: Framer %[1]p: napaka pri dekodiranju ravnokar zapisanega o" +
-	"kvirja\x02http2: Framer %[1]p: zapisano %[2]v\x02http2: Framer %[1]p: pr" +
-	"ebrano %[2]v\x02http2: dekodirano polje hpack %+[1]v"
+	"ora biti število med 0 in 2^64-1: %[1]v\x02Ime gostitelja ne sme biti pr" +
+	"azno\x02Ime gostitelja ne sme biti daljše od 255 znakov\x02Neveljavno do" +
+	"mensko ime\x02Dve zaporedni vejici\x02Ime tunela ni veljavno\x02Vrstica " +
+	"mora biti v odseku\x02Napačnemu ključu konfiguracije manjka ločilo-enača" +
+	"j\x02Ključ mora imeti vrednost\x02Napačen ključ za odsek [Interface]\x02" +
+	"Napačen ključ za odsek [Peer]\x02Vmesnik mora imeti zasebni ključ\x02[ni" +
+	" navedeno]\x02Vsi vrstniki morajo imeti javni ključ\x02Napaka pri branju" +
+	" konfiguracije\x02Napačen ključ za odsek vmesnika\x02Verzija protokola m" +
+	"ora biti 1\x02Napačen ključ za odsek vrstnika\x02, \x02 \x02O WireGuardu" +
+	"\x02Slika WireGuardovega logotipa\x02Verzija aplikacije: %[1]s\x0aVerzij" +
+	"a wireguard-go: %[2]s\x0aVerzija Go: %[3]s\x0aOperacijski sistem: %[4]s" +
+	"\x0aArhitektura: %[5]s\x02Zapri\x02♥ &Doniraj!\x02Status:\x02&Deaktivira" +
+	"j\x02&Aktiviraj\x02Javni ključ:\x02Vrata poslušanja:\x02MTU:\x02Naslovi:" +
+	"\x02Strežniki DNS:\x02Pripona DNS:\x02Ključ v skupni rabi:\x02Dovoljeni " +
+	"IP-ji:\x02Končna točka:\x02Trajno ohranjanje povezave:\x02Zadnje rokovan" +
+	"je:\x02Prenos:\x02omogočeno\x02%[1]s prejeto, %[2]s poslano\x02Napaka pr" +
+	"i določanju stanja tunela\x02Napaka pri aktiviranju tunela\x02Napaka pri" +
+	" deaktiviranju tunela\x02Vmesnik: %[1]s\x02Vrstnik\x02Ustvari nov tunel" +
+	"\x02Uredi tunel\x02&Ime:\x02&Javni ključ:\x02(neznano)\x02&Blokiraj prom" +
+	"et izven tunela (varovalka)\x02Kadar ima konfiguracija natanko enega vrs" +
+	"tnika in njegov spisek dovoljenih IP-jev vsebuje vsaj enega izmed 0.0.0." +
+	"0/0 ali ::/0, bo storitev tunela vzpostavila pravila požarnega zidu, ki " +
+	"bodo blokirala ves promet, ki ni niti za niti iz vmesnika tunela s poseb" +
+	"nimi izjemami za DHCP and NDP.\x02&Shrani\x02Prekliči\x02&Konfiguracija:" +
+	"\x02Napačno ime\x02Ime je obvezno.\x02Ime tunela »%[1]s« ni veljavno." +
+	"\x02Napaka pri pripravi seznama obstoječih tunelov\x02Tunel že obstaja" +
+	"\x02Drug tunel z imenom »%[1]s« že obstaja.\x02Napaka pri izdelavi nove " +
+	"konfiguracije\x02Napaka pri pisanju v datoteko\x02Datoteka »%[1]s« že ob" +
+	"staja.\x0a\x0aAli jo želite prepisati?\x02Aktivno\x02Se aktivira\x02Neak" +
+	"tivno\x02Se deaktivira\x02Neznano stanje\x02Dnevnik\x02&Kopiraj\x02&Izbe" +
+	"ri vse\x02&Shrani v datoteko\u00a0…\x02Čas\x02Sporočilo v dnevniku\x02Te" +
+	"kstovne datoteke (*.txt)|*.txt|Vse datoteke (*.*)|*.*\x02Izvozi dnevnik " +
+	"v datoteko\x02O WireGu&ardu\u00a0…\x02Napaka tunela\x02%[1]s\x0a\x0aDoda" +
+	"tne informacije najdete v dnevniku.\x02%[1]s (neposodobljen)\x02Napaka z" +
+	"aznavanja WireGuarda\x02Čakanje, da se pojavi WireGuardovo okno, ni možn" +
+	"o: %[1]v\x02WireGuard: Deaktiviran\x02Status: Neznan\x02Naslovi: Brez" +
+	"\x02&Upravljaj tunele\u00a0…\x02Uvoz&i tunele iz datoteke\u00a0…\x02I&zh" +
+	"od\x02Napaka tunela WireGuard\x02WireGuard: %[1]s\x02Status: %[1]s\x02Na" +
+	"slovi: %[1]s\x02WireGuard aktiviran\x02Tunel %[1]s je bil aktiviran.\x02" +
+	"WireGuard deaktiviran\x02Tunel %[1]s je bil deaktiviran.\x02Na voljo je " +
+	"posodobitev!\x02Posodobitev WireGuarda na voljo\x02Posodobitev WireGuard" +
+	"a je na voljo. Svetujemo posodobitev čim prej.\x02Tuneli\x02Ur&edi\x02Do" +
+	"daj praz&en tunel\u00a0…\x02Dodaj tunel\x02Odstrani izbrane tunele\x02Iz" +
+	"vozi vse tunele v zip\x02&Preklopi\x02Izvozi vse tunele v &zip\u00a0…" +
+	"\x02Uredi i&zbran tunel\u00a0…\x02Odst&rani izbrane tunele\x02Napaka pri" +
+	" uvozu izbrane konfiguracije: %[1]v\x02Napaka pri preštevanju obstoječih" +
+	" tunelov: %[1]v\x02Tunel z imenom »%[1]s« že obstaja\x02Napaka pri uvozu" +
+	" konfiguracije: %[1]v\x02Uvoženi tuneli\x14\x01\x81\x01\x00\x04\x16\x02U" +
+	"voženi %[1]d tuneli\x02\x14\x02Uvožen %[1]d tunel\x03\x16\x02Uvožena %[1" +
+	"]d tunela\x00\x17\x02Uvoženo %[1]d tunelov\x14\x01\x81\x01\x00\x04 \x02U" +
+	"voženi %[1]d od %[2]d tunelov\x02\x1f\x02Uvožen %[1]d od %[2]d tunelov" +
+	"\x03 \x02Uvožena %[1]d od %[2]d tunelov\x00 \x02Uvoženo %[1]d od %[2]d t" +
+	"unelov\x02Napaka pri stvaritvi tunela\x14\x01\x81\x01\x00\x04\x16\x02Izb" +
+	"riši %[1]d tunele\x02\x15\x02Izbriši %[1]d tunel\x03\x16\x02Izbriši %[1]" +
+	"d tunela\x00\x17\x02Izbriši %[1]d tunelov\x14\x01\x81\x01\x00\x048\x02Al" +
+	"i ste prepričani, da želite izbrisati %[1]d tunele?\x027\x02Ali ste prep" +
+	"ričani, da želite izbrisati %[1]d tunel?\x038\x02Ali ste prepričani, da " +
+	"želite izbrisati %[1]d tunela?\x009\x02Ali ste prepričani, da želite iz" +
+	"brisati %[1]d tunelov?\x02Izbriši tunel ‘%[1]s’\x02Ali ste prepričani, d" +
+	"a želite izbrisati tunel »%[1]s«?\x02%[1]s Tega dejanja ne morete razvel" +
+	"javiti.\x02Napaka pri izbrisu tunela\x02Napaka pri odstranjevanju tunela" +
+	": %[1]s\x02Napaka pri izbrisu tunelov\x14\x01\x81\x01\x00\x04*\x02%[1]d " +
+	"tunelov ni bilo mogoče odstraniti.\x02)\x02%[1]d tunela ni bilo mogoče o" +
+	"dstraniti.\x03*\x02%[1]d tunelov ni bilo mogoče odstraniti.\x00*\x02%[1]" +
+	"d tunelov ni bilo mogoče odstraniti.\x02Konfiguracijske datoteke (*.zip," +
+	" *.conf)|*.zip;*.conf|Vse datoteke (*.*)|*.*\x02Uvozi tunele iz datoteke" +
+	"\x02Konfiguracijske datoteke ZIP (*.zip)|*.zip\x02Izvozi tunele v zip" +
+	"\x02%[1]s (nepodpisane izdelave, brez posodobitev)\x02Napaka pri izhodu " +
+	"iz WireGuarda\x02Storitve ni bilo mogoče zaustaviti, ker: %[1]v. Poskusi" +
+	"te zaustaviti WireGuard z uporabo programa Storitve.\x02Posodobitev Wire" +
+	"Guarda je na voljo. Zelo priporočamo posodobitev brez odlašanja.\x02Stat" +
+	"us: Čaka na uporabnika\x02Posodobi zdaj\x02Status: Čaka na servis za pos" +
+	"odobitev\x02Napaka: %[1]v. Poskusite ponovno.\x02Status: Končano!\x02htt" +
+	"p2: Framer %[1]p: napaka pri dekodiranju ravnokar zapisanega okvirja\x02" +
+	"http2: Framer %[1]p: zapisano %[2]v\x02http2: Framer %[1]p: prebrano %[2" +
+	"]v\x02http2: dekodirano polje hpack %+[1]v"
 
-	// Total table size 27397 bytes (26KiB); checksum: 32D19D64
+	// Total table size 27680 bytes (27KiB); checksum: D3C7319F

@@ -478,6 +478,21 @@
             ]
         },
         {
+            "id": "Hostname must not be empty",
+            "message": "Hostname must not be empty",
+            "translation": "Ime gostitelja ne sme biti prazno"
+        },
+        {
+            "id": "Hostname must not exceed 255 characters",
+            "message": "Hostname must not exceed 255 characters",
+            "translation": "Ime gostitelja ne sme biti daljše od 255 znakov"
+        },
+        {
+            "id": "Invalid domain name",
+            "message": "Invalid domain name",
+            "translation": "Neveljavno domensko ime"
+        },
+        {
             "id": "Two commas in a row",
             "message": "Two commas in a row",
             "translation": "Dve zaporedni vejici"
@@ -665,6 +680,11 @@
             "id": "DNS servers:",
             "message": "DNS servers:",
             "translation": "Strežniki DNS:"
+        },
+        {
+            "id": "DNS suffix:",
+            "message": "DNS suffix:",
+            "translation": "Pripona DNS:"
         },
         {
             "id": "Preshared key:",
