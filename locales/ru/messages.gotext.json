@@ -678,14 +678,14 @@
         {
             "id": "&Deactivate",
             "message": "&Deactivate",
-            "translation": "&Отключен",
-            "translatorComment": "Copied from source."
+            "translation": "&Отключить",
+            "translatorComment": "fixed"
         },
         {
             "id": "&Activate",
             "message": "&Activate",
-            "translation": "&Подключен",
-            "translatorComment": "Copied from source."
+            "translation": "&Подключить",
+            "translatorComment": "fixed"
         },
         {
             "id": "Public key:",
